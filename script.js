@@ -22,15 +22,24 @@ optimg.forEach((image, index) => {
       let userval = ["R", "P", "S"][index];
       let outcomes = {
         RR: "DRAW",
-        RP: "USER",
-        RS: "USER",
-        PP: "DRAW",
-        PR: "COMPUTER",
-        SP: "COMPUTER",
-        SS: "DRAW",
-        SP: "COMPUTER",
-        SR: "COMPUTER",
-        PS: "USER",
+
+RP: "COMPUTER",
+
+RS: "USER",
+
+PP: "DRAW",
+
+PR: "USER",
+
+PS: "COMPUTER",
+
+SS: "DRAW",
+
+SR: "COMPUTER",
+
+SP: "USER",
+
+
       };
       let outcomeval = outcomes[userval + comval];
       res.textContent =
