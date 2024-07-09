@@ -22,13 +22,13 @@ optimg.forEach((image, index) => {
       let userval = ["R", "P", "S"][index];
       let outcomes = {
         RR: "DRAW",
-        RP: "COMPUTER",
+        RP: "USER",
         RS: "USER",
         PP: "DRAW",
         PR: "COMPUTER",
         SP: "COMPUTER",
         SS: "DRAW",
-        SP: "USER",
+        SP: "COMPUTER",
         SR: "COMPUTER",
         PS: "USER",
       };
